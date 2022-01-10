@@ -125,6 +125,14 @@ public class LagerController {
         return true;
     }
 
+    public List<Produkt> getProduktList() {
+        return produktList;
+    }
+
+    public void setProduktList(List<Produkt> produktList) {
+        this.produktList = produktList;
+    }
+
 }
 
 
